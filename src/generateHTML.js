@@ -52,3 +52,12 @@ const generateIntern = function (intern) {
 </div>
     `
 };
+// push array to page 
+generateHTML = (data) => {
+
+    // array for cards 
+    pageArray = []; 
+
+    for (let i = 0; i < data.length; i++) {
+        const employee = data[i];
+        const role = employee.getRole(); 
