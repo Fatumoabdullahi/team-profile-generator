@@ -83,3 +83,11 @@ generateHTML = (data) => {
         }
         
     }
+// joining strings 
+    const employeeCards = pageArray.join('')
+
+    // return to generated page
+    const generateTeam = generateTeamPage(employeeCards); 
+    return generateTeam;
+
+}
