@@ -193,6 +193,7 @@ const addEmployee = () => {
     })
 
 };
+
 // function to generate HTML page file using file system 
 const writeFile = data => {
     fs.writeFile('./dist/index.html', data, err => {
