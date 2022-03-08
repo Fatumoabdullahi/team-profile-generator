@@ -19,7 +19,7 @@
     "url": "https://github.com/Fatumoabdullahi/team-profile-generator/issues"
   },
   "homepage": "https://github.com/Fatumoabdullahi/team-profile-generator#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^27.5.1"
   }
 }
